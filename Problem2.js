@@ -10,6 +10,6 @@ let lionMoney = {
 };
 let sum=0
 for(let i in lionMoney){
-  sum=sum+i
+  sum=sum+lionMoney[i]
   return sum
 }
