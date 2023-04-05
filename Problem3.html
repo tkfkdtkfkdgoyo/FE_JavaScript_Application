@@ -11,15 +11,15 @@
       if (userName === "LikeLion") {
         let pass = prompt("비밀번호:", "");
 
-        if ("이 칸에 코드를 작성해주세요!!!") {
+        if (pass==="KingJS") {
           alert("환영합니다!");
-        } else if ("이 칸에 코드를 작성해주세요!!!") {
+        } else if (pass!="KingJS") {
           alert("취소되었습니다.");
         } else {
           alert("인증에 실패하였습니다.");
         }
-      } else if ("이 칸에 코드를 작성해주세요!!!") {
-        alert("취소되었습니다.");
+      } else if (pass==="" || pass===null) {
+        alert("취소되었습니다."); //빈문자열 입력, esc 누르면?
       } else {
         alert("인증되지 않은 사용자입니다.");
       }
