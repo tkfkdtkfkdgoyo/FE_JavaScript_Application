@@ -11,17 +11,17 @@
       if (userName === "LikeLion") {
         let pass = prompt("비밀번호:", "");
 
-        if (pass==="KingJS") {
+        if (pass === "KingJs") {
           alert("환영합니다!");
-        } else if (pass==="" || pass===null) {
+        } else if (pass === null || pass === "") {
           alert("취소되었습니다.");
         } else {
-          alert("인증에 실패하였습니다.");
+          alert("인증에 실패하였습니다."); //틀린 비밀번호를 입력한다면
         }
-      } else if (userName==="" || userName===null) {
-        alert("취소되었습니다."); //빈문자열 입력, esc 누르면?
+      } else if (userName === null || userName === "") { //ESC를 누르거나 빈문자열을 입력한다면
+        alert("취소되었습니다.");
       } else {
-        alert("인증되지 않은 사용자입니다.");
+        alert("인증되지 않은 사용자입니다."); //틀린 사용자 이름을 입력한다면 
       }
     </script>
   </head>

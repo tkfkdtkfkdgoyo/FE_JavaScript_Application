@@ -5,8 +5,8 @@ let user = {
   age: 20,
 };
 
-let json=JSON.stringify(user)
-let temp=JSON.parse(json)
+let userObjString = JSON.stringify(user);
+let userObj = JSON.parse(userObjString)
 
-alert(json)
-alert(temp)
+alert(userObjString)
+console.log(userObj)

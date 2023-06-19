@@ -7,8 +7,7 @@ let user = {
 
 // 아래에 코드를 작성해주세요 ~
 
-let {Name:name,years:age,isAdmin:isAdmin} = user;
-
-alert(name); // "지환"
-alert(age); // 23
-alert(isAdmin?isAdmin:false); // false
+let {Name : name, years : age, isAdmin : isAdmin} = user;
+alert(name); //"지환"
+alert(age); //23
+alert(isAdmin?isAdmin:false); //false

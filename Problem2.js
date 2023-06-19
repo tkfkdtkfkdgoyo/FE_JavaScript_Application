@@ -8,8 +8,11 @@ let lionMoney = {
   주용: 2800,
   맑음: 50000,
 };
-let sum=0
-for(let i in lionMoney){
-  sum=sum+lionMoney[i]
-  return sum
+
+let sum = 0
+for(let name in lionMoney){
+  sum += lionMoney[name]
 }
+alert(sum)
+
+//name은 객체의 key를 담은 변수 
